@@ -1,0 +1,18 @@
+{
+  "name": "llm-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kai",
+  "description": "https://kaiyi.cool/",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@lancedb/lancedb": "^0.9.0",
+    "@langchain/community": "^0.2.31",
+    "@langchain/core": "^0.2.31",
+    "apache-arrow": "^17.0.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.17",
+    "npm": "^10.8.3"
+  }
+}
