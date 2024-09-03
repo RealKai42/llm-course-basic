@@ -13,7 +13,7 @@ const currentDir = path.dirname(__filename);
 // 加载环境变量
 dotenv.config({ path: path.join(currentDir, "../.env") });
 
-// 创建提供给 agent 的工具
+// 创建提供给 agent 的工具。 reAct 只支持 DynamicTool，也就是只有一个输入的工具
 const exchangeRateTool = new DynamicTool({
   name: "exchange-rate-calculator",
   description: "获取人民币和美元之间的最新汇率。输入应为你当前的货币，'CNY' 或 'USD'。",
