@@ -6,6 +6,7 @@ import { fileURLToPath } from "url";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { OpenAIEmbeddings } from "@langchain/openai";
 import dotenv from "dotenv";
+import { TABLE_NAME, DB_URI } from "./constant.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const currentDir = path.dirname(__filename);
@@ -14,10 +15,7 @@ const currentDir = path.dirname(__filename);
 dotenv.config({ path: path.join(currentDir, "../.env") });
 
 // 加载 vector store （lanceDB）
-const TABLE_NAME = "kong";
-// 需根据使用的 embedding 模型生成的 vector size 进行修改
-const EMBEDDING_VECTOR_SIZE = 1536;
-const DB_URI = path.join(currentDir, "../db");
+const EMBEDDING_VECTOR_SIZE = 3072; // 需根据使用的 embedding 模型生成的 vector size 进行修改
 const db = await lancedb.connect(DB_URI);
 
 const tableNames = await db.tableNames();
