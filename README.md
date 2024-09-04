@@ -50,6 +50,10 @@ AZURE_OPENAI_API_EMBEDDINGS_DEPLOYMENT_NAME=abc
 介绍基础的 langchain.js LCEL Chain 的使用方式  
 [code](./Langchain-Basic/index.js)
 
+参考文档：
+
+- https://js.langchain.com/v0.2/docs/tutorials/llm_chain
+
 ## RAG
 
 使用 langchian.js 和 lanceDB 构建一个 RAG 工具。
@@ -59,7 +63,7 @@ AZURE_OPENAI_API_EMBEDDINGS_DEPLOYMENT_NAME=abc
 [构建向量数据库](./RAG/load-and-store-data.js)  
 [构建 RAG 工具](./RAG/index.js)
 
-## 参考文档：
+参考文档：
 
 - https://juejin.cn/book/7347579913702293567/section/7351410645298135091
 - https://js.langchain.com/v0.2/docs/tutorials/rag
