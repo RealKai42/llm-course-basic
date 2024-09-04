@@ -36,7 +36,7 @@ const exchangeRateTool = new DynamicTool({
 const tools = [new Calculator(), exchangeRateTool];
 
 const prompt = ChatPromptTemplate.fromTemplate(`
-]Answer the following questions as best you can. You have access to the following tools:
+Answer the following questions as best you can. You have access to the following tools:
 
 {tools}
 

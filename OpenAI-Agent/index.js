@@ -55,7 +55,6 @@ const tools = [new Calculator(), exchangeRateTool, dateDiffTool];
 
 const prompt = ChatPromptTemplate.fromMessages([
   ["system", "You are a helpful assistant"],
-  ["placeholder", "{chat_history}"],
   ["user", "{input}"],
   ["placeholder", "{agent_scratchpad}"],
 ]);
