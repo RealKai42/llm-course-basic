@@ -1,5 +1,9 @@
 # Langchain.js 入门课
 
+## 课程 Slides
+
+- [PDF](./docs/llm-course.pdf)
+
 ## 环境变量配置
 
 本项目使用 OpenAI 的 LLM 和 Embedding 的 API，可以选择 OpenAI 官方 API 或者使用 Azure OpenAI 服务，如果使用其他 LLM 和 Embedding API，请自行查阅 langchain.js 和对应 API 的文档。
