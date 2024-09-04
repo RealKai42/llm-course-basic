@@ -12,6 +12,8 @@
 OPENAI_API_KEY=<your-key>
 ```
 
+如果使用 OpenAI API，可能需要在创建 `OpenAIEmbeddings` 时手动指定 model 参数，来确定使用的 embedding model，具体请参考：https://js.langchain.com/v0.2/docs/integrations/text_embedding/openai/
+
 参考文档：
 
 - https://js.langchain.com/v0.2/docs/integrations/llms/openai/
