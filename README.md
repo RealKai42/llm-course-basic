@@ -1,5 +1,7 @@
 # Langchain.js 入门课
 
+[<img src="https://api.gitsponsors.com/api/badge/img?id=851556706" height="20">](https://api.gitsponsors.com/api/badge/link?p=PHLc7DbS+yV2NY/gup5aekmMGSVM9gFehDob2B2vRtYcjV3w827VBzYM4I7UmJ6ausXlYDvC0J5HecgiuM4NZCpWr1ptuwIe1mtpvV7sBDd1Xd0mZ/bfA0ea6+fw8QkPsLfie2pw7UG0ah/9RsORPw==)
+
 ## 课程 Slides
 
 - [PDF](./docs/llm-course.pdf)
