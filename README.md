@@ -2,6 +2,10 @@
 
 [<img src="https://api.gitsponsors.com/api/badge/img?id=851556706" height="20">](https://api.gitsponsors.com/api/badge/link?p=PHLc7DbS+yV2NY/gup5aekmMGSVM9gFehDob2B2vRtYcjV3w827VBzYM4I7UmJ6ausXlYDvC0J5HecgiuM4NZCpWr1ptuwIe1mtpvV7sBDd1Xd0mZ/bfA0ea6+fw8QkPsLfie2pw7UG0ah/9RsORPw==)
 
+## 报名链接
+AI+Web3 速成班：从理论到实战，全面解锁开发新范式
+https://openbuild.xyz/learn/challenges/2054935307
+
 ## 课程 Slides
 
 - [PDF](./docs/llm-course.pdf)
