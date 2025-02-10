@@ -6,6 +6,8 @@
 AI+Web3 速成班：从理论到实战，全面解锁开发新范式
 https://openbuild.xyz/learn/challenges/2054935307
 
+b站视频链接: [Link](https://www.bilibili.com/video/BV1gkcfeVEjr/?vd_source=a642bff40f8cf9984fe37585388921f6)
+
 ## 课程 Slides
 
 - [PDF](./docs/llm-course.pdf)
